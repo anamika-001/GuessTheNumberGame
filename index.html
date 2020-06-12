@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body onload="init()">
+  <div id="container">
+     <div class="panel">
+         <h1>Guess the Number</h1>
+         <p>Try and guess a random number between 1 and 10.</p>
+         <p>You have 10 attempts to guess the right number.</p>
+         <button onclick="newGame()">NEW GAME</button>
+    </div>
+
+
+    <div class="panel">
+            <h3 id="textOutput">Enter Your Guess Below &amp; press enter</h3>
+             <input type="number" id="inputBox" onchange="CompareGuess()">
+             <p>number of previous attempts:<span id="attempts">0</span></p>
+    </div>
+
+
+    <div class="panel">
+            <p >Previous Guesses: </p>
+            <p id="guesslog"></p>
+    </div>
+
+</div>
+    <script src="app.js"></script>
+</body>
+</html>     
+

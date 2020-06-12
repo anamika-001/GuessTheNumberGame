@@ -1,0 +1,37 @@
+html {
+    font-family: sans-serif;
+    
+}
+
+body {
+    font-size:1.2
+    width: 50%;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+#container{
+    max-width:80%;
+    margin:0 auto;
+    text-align:center;
+    border-radius:10px;
+    padding:10px;
+    background:#602040;
+    opacity:0.98;
+}
+.panel{
+    max-width:80%;
+    margin:20px auto;
+    border-radius:10px;
+    background:white;
+}
+button{
+    background:#862d59;
+    height:3em;
+    width:80;
+    margin-bottom:1.5em;
+    border-radius:10px;
+    color:white;
+    font-size:0.8em;
+}
